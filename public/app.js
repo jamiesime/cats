@@ -1,6 +1,5 @@
 var app = function(){
 
-  var newCat = new Cat("Pyrex", "Seeds");
   addCat(newCat);
 
 };
