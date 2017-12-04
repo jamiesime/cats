@@ -1,6 +1,12 @@
-var Cat = function(name, fav_food){
-  this.name = name;
-  this.fav_food = fav_food;
-}
+var app = function(){
 
-module.exports = Cat;
+  var newCat = new Cat("Pyrex", "Seeds");
+  addCat(newCat);
+
+};
+
+var addCat = function(cat){
+  var catData = document.getElementById('cat').children;
+};
+
+window.onload = app;
