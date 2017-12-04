@@ -12,6 +12,9 @@ var newCat1;
     assert.strictEqual(newCat1.name, "Cup");
   });
 
+  it('should have a favourite food', function(){
+    assert.strictEqual(newCat1.fav_food, "Handlebars");
+  });
 
 
 });
